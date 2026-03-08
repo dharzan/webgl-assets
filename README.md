@@ -10,6 +10,18 @@ Steps to add a new `.glb` file (example: `Climbing.glb`):
 ```bash
 brew install git-lfs
 git lfs install
+
+```
+
+Quick example: add `Dragon.glb` (same steps)
+
+```bash
+# track (if not already tracked by pattern):
+# git lfs track "Dragon.glb"
+
+git add Dragon.glb
+git commit -m "Add Dragon.glb (via Git LFS)"
+git push origin <branch>
 ```
 
 2. Ensure `.glb` is tracked by LFS in this repo (the repo already uses `*.glb` in `.gitattributes`):
