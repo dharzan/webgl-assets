@@ -1,4 +1,3 @@
-# WebGL Portfolio — Model Assets
 
 ## Adding new GLB files (Git LFS)
 
